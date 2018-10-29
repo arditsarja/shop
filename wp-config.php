@@ -23,23 +23,22 @@
 
 //local
 /** MySQL database username */
-define('DB_NAME', 'shop');
-
 /** MySQL database username */
+/** MySQL hostname */
+define('DB_NAME', 'shop');
 define('DB_USER', 'root');
+define('DB_HOST', 'localhost');
 
 //online
 /** MySQL database username */
-//define('DB_NAME', 'id662022_shop');
-
 /** MySQL database username */
-//define('DB_USER', 'id662022_root');
-
 /** MySQL database password */
-define('DB_PASSWORD', 'Elbasan94');
+//define('DB_NAME', 'id662022_shop');
+//define('DB_USER', 'id662022_root');
+//define('DB_PASSWORD', 'Elbasan94');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'databases-auth.000webhost.com');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
@@ -93,7 +92,7 @@ define('WP_DEBUG', false);
 
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
-	define('ABSPATH', dirname(__FILE__) . '/');
+    define('ABSPATH', dirname(__FILE__) . '/');
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
