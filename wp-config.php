@@ -32,13 +32,13 @@ define('DB_HOST', 'localhost');
 //online
 /** MySQL database username */
 /** MySQL database username */
-/** MySQL database password */
+/** MySQL hostname */
 //define('DB_NAME', 'id662022_shop');
 //define('DB_USER', 'id662022_root');
-//define('DB_PASSWORD', 'Elbasan94');
+//define('DB_HOST', 'databases-auth.000webhost.com');
 
-/** MySQL hostname */
-define('DB_HOST', 'databases-auth.000webhost.com');
+/** MySQL database password */
+define('DB_PASSWORD', 'Elbasan94');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
